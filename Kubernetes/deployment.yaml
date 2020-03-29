@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ass3
+  labels:
+    app: ass3
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: ass3
+  template:
+    metadata:
+      labels:
+        app: ass3
+    spec:
+      containers:
+      - name: ass3
+        image: dawood6/assignment3
+        ports:
+        - containerPort: 80
+

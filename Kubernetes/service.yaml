@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ass
+spec:
+  ports:
+  - port: 9000
+    targetPort: 80
+  selector:
+    app: ass3
+  type: NodePort
