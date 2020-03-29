@@ -21,6 +21,8 @@ For running Kubernetes you must know how to run Docker. Now for making image on 
 after making repository run this command
 
 \$ sudo docker build -t <imagename> .
+  
+  
 Note: name same as you make docker hub repository and replace this <imagename> with your image name dont put your image name inside these <> brackets .
 
 After this run this command for Seeing image id
