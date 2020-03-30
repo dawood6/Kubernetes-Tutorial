@@ -55,7 +55,7 @@ now type in google adddress bar
 
 localhost:8000
 
-## you will see you website
+## you will see your website
 
 End of portion Docker
 
@@ -128,7 +128,7 @@ and now copy your minikube ip and paste it on google address bar and put colon a
 and and copy your service second port means:
 
 9000/your port/tcp
-|
+       |
 copy this one
 
     and
